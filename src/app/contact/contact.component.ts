@@ -8,6 +8,8 @@ import { PersonalData, ContactRequest } from 'src/models/contact-request';
   styleUrls: ['./contact.component.scss']
 })
 
+// https://malcoded.com/posts/angular-fundamentals-reactive-forms
+
 export class ContactComponent implements OnInit {
 
   countries = ['USA', 'Germany', 'Italy', 'France'];
